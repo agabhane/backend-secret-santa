@@ -1,0 +1,26 @@
+{
+  "name": "secret-santa-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "socket.io",
+    "random"
+  ],
+  "author": "ashishgabhane1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "socket.io": "^2.0.4"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
